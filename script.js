@@ -14,7 +14,7 @@ const marqueeMsgs =
   ":vaporeon_melt:",
   "sudo rm -rf /*",
   "oh worm?",
-  "Is linux an virus"
+  "Is linux an virus",
   "this script breaks when run locally, i have to push it to github EVERY TIME i change it so i can test if it works. heck. frick. crap."
 ]
 
