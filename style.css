@@ -1,0 +1,46 @@
+@font-face {
+  font-family:          'jbm';
+  src:                  url('jbm.woff2');
+}
+html {
+  background-color:     #323c41;
+  color:                #d3c6aa;
+  font-family:          'jbm';
+}
+
+/* unvisited link */
+a:link {
+  color:                #7fbbb3;
+}
+a:visited {
+  color:                #83c092;
+}
+a:hover {
+  color:                #d699b6;
+}
+a:active {
+  color:                #e67e80;
+}
+
+
+@keyframes marquee-veryfast {
+  0% {
+    -moz-transform:     translateX(100%);
+    -webkit-transform:  translateX(100%);
+    transform:          translateX(100%);
+  }
+  100% {
+    -moz-transform:     translateX(-100%);
+    -webkit-transform:  translateX(-100%);
+    transform:          translateX(-100%);
+  }
+}
+
+.marquee-veryfast {
+  width:                80%;
+  animation:            marquee-veryfast 0.5s linear infinite;
+}
+
+.yellow {
+  color:                #dbbc7f;
+}
