@@ -38,7 +38,7 @@ a:active {
 
 .marquee-veryfast {
   width:                80%;
-  animation:            marquee-veryfast 0.5s linear infinite;
+  animation:            marquee-veryfast 10s linear infinite;
 }
 
 .yellow {
