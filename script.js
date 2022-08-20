@@ -21,9 +21,10 @@ const marqueeMsgs =
 const marquee = document.getElementById("change");
 
 function splash() {
-  marquee.innerHTML = marqueeMsgs[Math.floor(Math.random() * marqueeMsgs.length)]
+  marquee.innerHTML = marqueeMsgs[Math.floor(Math.random() * marqueeMsgs.length)];
+  console.log("Website used Splash!");
 }
 
-marquee.addEventListener('animationiteration', splash)
+marquee.addEventListener('animationiteration', splash);
 
-splash()
+splash();
