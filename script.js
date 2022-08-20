@@ -17,9 +17,12 @@ const marqueeMsgs =
   "Is linux an virus",
   "this script breaks when run locally, i have to push it to github EVERY TIME i change it so i can test if it works. heck. frick. crap."
 ]
+const marquee = document.getElementById("change");
 
 function splash() {
-  document.getElementById("change").innerHTML = marqueeMsgs[Math.floor(Math.random() * marqueeMsgs.length)]
+  marquee.innerHTML = marqueeMsgs[Math.floor(Math.random() * marqueeMsgs.length)]
 }
+
+marquee.addEventListener('animationstart', () => { splash(); })
 
 splash()
