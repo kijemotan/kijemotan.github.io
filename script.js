@@ -15,7 +15,7 @@ const marqueeMsgs =
   "sudo rm -rf /*",
   "oh worm?",
   "Is linux an virus",
-  "this script breaks when r,un locally, i have to push it to github EVERY TIME i change it so i can test if it works. heck. frick. crap."
+  "this script breaks when r,un locally, i have to push it to github EVERY TIME i change it so i can test if it works. heck. frick. crap.",
   "ТНІЅ ІЅ ТОТАꙆꙆУ ЯЦЅЅІАИ",
   "TNIDZ IDZ TOTAIIU YATSDZDZIAI"
 ]
