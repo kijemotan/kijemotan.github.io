@@ -23,6 +23,6 @@ function splash() {
   marquee.innerHTML = marqueeMsgs[Math.floor(Math.random() * marqueeMsgs.length)]
 }
 
-marquee.addEventListener('animationstart', () => { splash(); })
+marquee.addEventListener('animationstart', splash())
 
 splash()
