@@ -17,7 +17,15 @@ const marqueeMsgs =
   "Is linux an virus",
   "this script breaks when r,un locally, i have to push it to github EVERY TIME i change it so i can test if it works. heck. frick. crap.",
   "ТНІЅ ІЅ ТОТАꙆꙆУ ЯЦЅЅІАИ",
-  "TNIDZ IDZ TOTAIIU YATSDZDZIAI"
+  "TNIDZ IDZ TOTAIIU YATSDZDZIAI",
+  "mi! wile! ala! sa!",
+  "WAN TU SAN PO LUKA SAN SAN LIKUJO",
+  "the",
+  "mu",
+  "AND PLAYIN' I LOVE JUNK EATING FOOD CLASSIC GAMES Do U? Just Fraggin' Think you're a Certified \"Gamer?\"? Get Down Power Up Gamin' All day Max stats E-sports RAM",
+  "i live in spain but without the a",
+  "why do they call it oven when you of in the cold food of out hot eat the food?",
+  "sudo cp -if /dev/urandom -of /dev/fb0"
 ]
 
 const marquee = document.getElementById("change");
