@@ -3,7 +3,9 @@
   src:                  url('jbm.woff2');
 }
 html {
-  background-color:     #323c41;
+  background-image:     url('images/two_forests_everforest.png');
+  background-repeat:    no-repeat;
+  background-size:      100% 100%;
   color:                #d3c6aa;
   font-family:          'jbm';
 }
@@ -22,6 +24,20 @@ a:active {
   color:                #e67e80;
 }
 
+.container { /* stolen from bucketfish.me */
+  max-width:            768px;
+  margin:               10px auto;
+  padding:              0 10px;
+}
+
+.paragraph {
+  border:               5px solid #a7c080;
+  padding:              15px;
+  margin-bottom:        20px; 
+  background-color:     #323c41;
+  overflow:             hidden;
+  box-shadow:           8px 8px #3a454a;
+}
 
 @keyframes marquee-veryfast {
   0% {
@@ -43,4 +59,13 @@ a:active {
 
 .yellow {
   color:                #dbbc7f;
+}
+
+p, h1, h2, h3 {
+  margin:               0%;
+}
+
+#john {
+  margin:               0% auto;
+  box-shadow:           8px 8px #3a454a;
 }
