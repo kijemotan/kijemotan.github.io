@@ -9,6 +9,10 @@ html {
   color:                #d3c6aa;
   font-family:          'jbm';
 }
+body {
+  margin:               0 0;
+}
+
 
 /* unvisited link */
 a:link {
@@ -22,6 +26,19 @@ a:hover {
 }
 a:active {
   color:                #e67e80;
+}
+
+.bg { 
+  background-image:     url('images/two_forests_everforest.png');
+  background-repeat:    repeat-y;
+  background-size:      100% 200%;
+  mix-blend-mode:       overlay;
+  position:             fixed;
+  top:                  0;
+  bottom:               0;
+  left:                 0;
+  right:                0;
+  z-index:              -10;
 }
 
 .container { /* stolen from bucketfish.me */
