@@ -51,6 +51,7 @@ a:active {
   border:               5px solid #a7c080;
   padding:              15px;
   margin-bottom:        20px; 
+  position:             relative;
   background-color:     #323c41;
   overflow:             hidden;
   box-shadow:           8px 8px #3a454a;
@@ -76,6 +77,12 @@ a:active {
 
 .yellow {
   color:                #dbbc7f;
+}
+
+#navigation {
+  position:             absolute;
+  top:                  15px;
+  right:                15px;
 }
 
 p, h1, h2, h3 {
