@@ -112,7 +112,7 @@ p, h1, h2, h3 {
 #mante {          /* stolen from cvni1981.github.io */
   border:                 solid 1px #003621;
   border-radius:          8px;
-  margin:                 8px 0;
+  margin-bottom:          8px;
   box-shadow:             2px 2px #63b695;
   padding:                8px; 
   color:                  #003621; 
