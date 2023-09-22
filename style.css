@@ -98,15 +98,15 @@ p, h1, h2, h3 {
   width:                100%;
 }
 #mante tbody tr .webring-prev {
-  width:                25%
+  width:                25%;
   text-align:           right;
 }
 #mante tbody tr .webring-info {
-  width:                50%
+  width:                50%;
   text-align:           center;
 }
 #mante tbody tr .webring-next {
-  width:                25%
+  width:                25%;
   text-align:           left;
 }
 
