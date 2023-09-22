@@ -97,3 +97,6 @@ p, h1, h2, h3 {
 #mante table {
   width:                100%;
 }
+#mante tbody tr {
+  text-align:           center;
+}
