@@ -52,9 +52,9 @@ a:active {
   padding:                15px;
   margin-bottom:          20px; 
   position:               relative;
-  background-color:       #323c41;
+  background-color:       #2d353b;
   overflow:               hidden;
-  box-shadow:             8px 8px #3a454a;
+  box-shadow:             8px 8px #232a2e;
 }
 
 @keyframes marquee-veryfast {
@@ -91,7 +91,7 @@ p, h1, h2, h3 {
 
 #john {
   margin:                 0% auto;
-  box-shadow:             8px 8px #3a454a;
+  box-shadow:             8px 8px #232a2e;
 }
 
 #mante table {
